@@ -47,3 +47,38 @@ body {
 #image-logo {
     border: medium;
 }
+
+a:hover {
+    color: deepskyblue;
+}
+
+#table1,#table1 td {
+    border: 1px solid black;
+
+}
+
+#table1 {
+    width: 200px;
+}
+
+#table1 td {
+    height: 50px;
+    width: 25px;
+    padding: 3px 5px;
+    text-align: center;
+    vertical-align: bottom;
+}
+#email:hover {
+    background: gray;
+    color: blue;
+}
+
+.red:focus {
+    text-transform: capitalize;
+}
+
+.footer {
+}
+
+.header {
+}
