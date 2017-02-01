@@ -1,11 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background:#f8f8f8;
 }
 
-.blue {
+.menuItem {
     color: blue;
     font-weight: bold;
     font-size: 18px;
+    display: inline-block;
+    float: right;
+    margin:10px;
+    padding: 10px;
+
 }
 
 .heading {
@@ -28,13 +38,9 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-align: left;
+    text-align:left;
 }
-.features {
-    color: green;
-    font-size: 20px;
-    font-weight: bold;
-}
+
 
 .red {
     color: red;
@@ -46,6 +52,7 @@ body {
 
 #image-logo {
     border: medium;
+    float: left;
 }
 
 a:hover {
@@ -77,8 +84,40 @@ a:hover {
     text-transform: capitalize;
 }
 
-.footer {
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .header {
+    border: 1px solid black;
+    height: 100px;
+    background: lightsteelblue;
+
+}
+
+.footer {
+    border: 1px solid black;
+    height: 100px;
+    background: rosybrown;
+    text-align: right;
+    padding: 20px;
+
+}
+
+.content {
+    height: 400px;
+}
+
+.picture {
+    float: right;
+}
+
+.catalog {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
 }
